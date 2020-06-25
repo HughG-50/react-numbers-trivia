@@ -1,8 +1,13 @@
 import React from 'react';
 
 class Number extends React.Component {
+
+  constructor(props){
+    super(props)
+  }
+
   render() {
-    return <div>Display number triva here...</div>;
+    return <div>{this.props.triviaOutput}</div>;
   }
 }
 
